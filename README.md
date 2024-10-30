@@ -21,7 +21,17 @@ source .venv/bin/activate
         Потом Add local interpreter.
         Выбираем нужную версию питона и нажимаем OK.
         Нажимаем Apply и OK.
-Если в терминале перед вашим проектом не стоит (.venv), то запустите его командой описанной выше.
+Если в терминале перед вашим проектом не стоит (.venv), то запустите его командой:
+#### На Windows:
+```bash
+.\.venv\Scripts\activate
+```
+
+#### На Linux и macOS:
+```bash
+source .venv/bin/activate
+```
+
 
 2. Установите зависимости:
 ```bash
